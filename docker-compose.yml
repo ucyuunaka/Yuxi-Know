@@ -15,7 +15,7 @@ services:
       - ./saves:/app/saves
       - ./test:/app/test
       - ./scripts:/app/scripts
-      - ./.env :/app/.env
+      - ./.env:/app/.env
       - ${MODEL_DIR:-./models}:/models  # 使用默认值处理未定义的环境变量
     ports:
       - "5050:5050"
@@ -200,7 +200,7 @@ services:
       retries: 5
     ports:
       - "19530:19530"
-      - "9091:9091"
+      - "9092:9091"
     depends_on:
       - "etcd"
       - "minio"
