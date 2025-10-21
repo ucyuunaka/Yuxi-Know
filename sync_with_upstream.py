@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 自动同步上游仓库脚本
 从原仓库(xerrors/Yuxi-Know)同步最新更新到您的fork仓库
