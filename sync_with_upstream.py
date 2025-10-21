@@ -1,6 +1,6 @@
 """
 自动同步上游仓库脚本
-从原仓库(xerrors/Yuxi-Know)同步最新更新到您的fork仓库
+从原仓库同步最新更新到您的fork仓库
 """
 
 import subprocess
