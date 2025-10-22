@@ -32,7 +32,7 @@ MODEL_NAMES:
     name: 智谱AI (Zhipu)
     url: https://open.bigmodel.cn/dev/api
     base_url: https://open.bigmodel.cn/api/paas/v4/
-    default: glm-4.5-flash
+    default: glm-4.6
     env: ZHIPUAI_API_KEY
     models:
       - glm-4.6
